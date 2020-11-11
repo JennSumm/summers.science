@@ -1,0 +1,66 @@
+header {
+    background-color: #2D3A2F;
+    color: #f5f5f5;
+    padding: 8%;
+}
+
+h1 {
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 65%;
+    position: absolute;
+}
+
+header p {
+    position: relative;
+    left: 2rem;
+    top: 16rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+main {
+    background-color: #f5f5f5;
+    padding: 8%;
+}
+
+h3 {
+    color: #2D3A2F;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main .col-4 p, main .col-4 ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-color: #2D3A2F;
+}
+
+main .col-8 p {
+    font-family: 'Josefin Slab', serif;
+    font-color: #2D3A2F;
+}
+
+a {
+    color: #C5B946;
+}
+
+#cv {
+    height: 15em;
+}
