@@ -9,7 +9,10 @@ function menuScrollHandler(nav, sticky) {
 }
 
 function headerImgResize(headerImg) {
-    if (window.innerWidth <= 516) {
+    if (window.innerWidth < 500) {
+        headerImg.setAttribute('hidden', 'true');
+    }
+    else if (window.innerWidth <= 516) {
         // Small Break Point
         headerImg.style.width = '66%';
         headerImg.style.position = 'absolute';
