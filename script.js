@@ -9,7 +9,7 @@ function menuScrollHandler(nav, sticky) {
 }
 
 function headerImgResize(headerImg) {
-    if (window.width <= 480) {
+    if (window.width <= 500) {
         headerImg.setAttribute('hidden', 'true');
     }
     else if (window.innerWidth <= 516) {
