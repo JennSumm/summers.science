@@ -8,7 +8,6 @@ body {
 
 .overflow-wrapper {
     overflow-x: hidden;
-    position: relative;
 }
 
 header {
