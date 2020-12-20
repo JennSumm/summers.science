@@ -88,6 +88,10 @@ a {
     padding-left: 10px;
 }
 
+#galleryContent img {
+    width: 100%;
+}
+
 #cv {
     height: 15em;
 }
