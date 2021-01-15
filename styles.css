@@ -37,8 +37,11 @@ h2 {
 }
 
 header img {
-    width: 65%;
+    width: 33%;
     z-index: 2;
+    position: absolute;
+    left: 75%;
+    top: 10%;
 }
 
 header p {
